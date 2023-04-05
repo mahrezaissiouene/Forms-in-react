@@ -1,6 +1,6 @@
 const SimpleInput = (props) => {
   return (
-    <form className="mahrez" >
+    <form>
       <div className='form-control'>
         <label htmlFor='name'>Your Name</label>
         <input type='text' id='name' />
