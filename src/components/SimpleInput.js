@@ -25,6 +25,7 @@ const SimpleInput = (props) => {
 
     const entredname = entrednameRef.current.value ; 
     console.log('using ref ' + entredname )
+
   };
 
   const formclasses = nameIsValid ? 'form-control' : 'form-control invalid'
