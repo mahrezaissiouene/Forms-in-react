@@ -10,6 +10,10 @@ const SimpleInput = (props) => {
   };
 
   const submitHandler = (event) => {
+
+    if (name.trim() === "") {
+      return ;
+    }
     event.preventDefault();
     console.log("using state "+name);
 
